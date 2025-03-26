@@ -29,7 +29,7 @@ if __name__ == "__main__":
         (13, 13, 6), 256, env.action_space("red_0").n
     )
     ppo_network.load_state_dict(
-        torch.load("actor10.pt")
+        torch.load("actor8.pt")
     )
     # ppo_network = torch.load("actor2.pt").to(device)
     # if torch.cuda.is_available():
